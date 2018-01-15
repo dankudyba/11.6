@@ -1,62 +1,58 @@
-#carousel {
-	width: 600px;
-	height: 350px;
-	margin:  100px auto;
-	overflow: hidden;
-	position: relative;
-}
-ul {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	background: #3b77b4;
 	padding: 0;
-	width: 3000px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
-li {
-	width: 600px;
-	height: 100%;
-	list-style-type: none;
+.head {
+	height: 100px;
+	background: #fff;
+	text-align: center;
+}
+.head h1 {
+	margin: 0;
+	display: inline-block;
+	margin-top: 30px;
+}
+.head button {
+	display: inline-block;
+	margin-left: 50px;
+	border: 0;
+	padding: 10px;
+	background: #42a343bd;
+	border-radius: 5px;
+	position: relative;
+	top: -7px;
+}
+.column-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 100%;
+}
+.column-container .column {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: 30px;
+	background: #fff;
+}
+ul li {
+	list-style: none;
+	display: block;
+}
+ul li button {
 	float: left;
 }
-
-img {
-	height: 350px;
-	width: 100%;
+.btn-delete {
+	background: #d78686;
+	border: 0;
 }
-.nav i {
-	position: absolute;
-	font-size: 30px;
-	color: #fff;
+.card-description {
+	margin: 0 5px;
 }
-.fa-chevron-left {
-	position: absolute;
-	top: 50%;
-	left: 20px;
-}
-.fa-chevron-right {
-	position: absolute;
-	top: 50%;
-	right: 20px;
-}
-
-.pagination {
-	position: absolute;
-	bottom: 10px;
-	display: flex;
-	justify-content: center;
-	width: 100%;
-}
-
-.change-slide {
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	border: 1px solid #fff;
-	margin: 0 10px;
-}
-
-.change-slide:hover {
-	cursor: pointer;
-}
-
-.active {
-	background-color: white;
-	transition: 1s;
+.add-card {
+	border: 0;
+	margin-left: 5px;
 }
