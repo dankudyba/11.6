@@ -33,10 +33,10 @@ body {
 }
 .column-container .column {
 	float: left;
-	width: 30%;
+	width: 31%;
 	text-align: center;
-	margin: 30px;
 	background: #fff;
+	margin: 20px 1px 1px 20px;
 }
 ul {
 	min-height: 200px;
