@@ -38,6 +38,9 @@ body {
 	margin: 30px;
 	background: #fff;
 }
+ul {
+	min-height: 200px;
+}
 ul li {
 	list-style: none;
 	display: block;
